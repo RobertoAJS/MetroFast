@@ -19,9 +19,9 @@ public class ViajeProgramado {
     @JoinColumn(name = "userid")
     private Usuario userid;
 
-    @ManyToOne
-    @JoinColumn(name = "lineid")
-    private Linea lineid;
+   // @ManyToOne
+    // @JoinColumn(name = "lineid")
+    // private Linea lineid;
 
 
     public ViajeProgramado() {
@@ -67,11 +67,11 @@ public class ViajeProgramado {
         this.userid = userid;
     }
 
-    public Linea getLineid() {
-        return lineid;
+   public Linea getLineid() {
+       return lineid;
     }
 
     public void setLineid(Linea lineid) {
         this.lineid = lineid;
-    }
+     }
 }
