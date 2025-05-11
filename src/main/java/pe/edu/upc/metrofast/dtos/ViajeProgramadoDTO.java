@@ -1,6 +1,7 @@
 package pe.edu.upc.metrofast.dtos;
 
 import jakarta.persistence.*;
+import pe.edu.upc.metrofast.entities.Usuario;
 
 import java.time.LocalDate;
 
